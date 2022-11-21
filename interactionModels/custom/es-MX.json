@@ -1,0 +1,1616 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "asistente azul",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "CategoriaHogarIntent",
+          "slots": [],
+          "samples": [
+            "de casa",
+            "casa",
+            "rutina de casa",
+            "rutinas del hogar",
+            "la categoria de hogar",
+            "categoria hogar",
+            "rutinas de casa",
+            "quierso rutina de casa",
+            "quiero hogar"
+          ]
+        },
+        {
+          "name": "CategoriaEducacionIntent",
+          "slots": [],
+          "samples": [
+            "escuela",
+            "educativas",
+            "educacion",
+            "de aprender",
+            "para aprender",
+            "para estudiar",
+            "de estudio",
+            "para la escuela",
+            "de escuela",
+            "escolar",
+            "de educacion",
+            "quiero educacion"
+          ]
+        },
+        {
+          "name": "TenderCamaIntent",
+          "slots": [],
+          "samples": [
+            "tender cama"
+          ]
+        },
+        {
+          "name": "LavarDientesIntent",
+          "slots": [],
+          "samples": [
+            "lavar dientes"
+          ]
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": [
+            "si",
+            "siguiente"
+          ]
+        },
+        {
+          "name": "CategoriaHogarUnoIntent",
+          "slots": [],
+          "samples": [
+            "comida",
+            "quiero lonche",
+            "quiero de comida",
+            "quiero nutricion",
+            "nutricion",
+            "lonche",
+            "de comida"
+          ]
+        },
+        {
+          "name": "CategoriaHogarDosIntent",
+          "slots": [],
+          "samples": [
+            "higiene personal",
+            "limpieza personal"
+          ]
+        },
+        {
+          "name": "CategoriaHogarTresIntent",
+          "slots": [],
+          "samples": [
+            "tareas del hogar "
+          ]
+        },
+        {
+          "name": "CategoriaEducacionUnoIntent",
+          "slots": [],
+          "samples": [
+            "la de aprendizaje",
+            "quiero aprendizaje",
+            "quiero la seccion de aprendizaje",
+            "aprendizaje"
+          ]
+        },
+        {
+          "name": "CategoriaEducacionDosIntent",
+          "slots": [],
+          "samples": [
+            "quiero la seccion de fonetizacion",
+            "quiero la de fonetizacion",
+            "de fonetizacion",
+            "fonetizacion"
+          ]
+        },
+        {
+          "name": "CategoriaEducacionTresIntent",
+          "slots": [],
+          "samples": [
+            "motricidad",
+            "la de motricidad",
+            "quiero motricidad"
+          ]
+        },
+        {
+          "name": "LavarManosIntent",
+          "slots": [],
+          "samples": [
+            "lavarse las manos",
+            "quiero lavarme las manos",
+            "lavar manos"
+          ]
+        },
+        {
+          "name": "vestirseIntent",
+          "slots": [],
+          "samples": [
+            "como me pongo ropa",
+            "como me visto",
+            "quiero vestirme",
+            "ponerse ropa",
+            "vestirse"
+          ]
+        },
+        {
+          "name": "mochilaIntent",
+          "slots": [],
+          "samples": [
+            "hacer mi mochila",
+            "hacer la mochila",
+            "hacer mochila",
+            "como hacer la mochila",
+            "como hacer mi mochila"
+          ]
+        },
+        {
+          "name": "peinarseIntent",
+          "slots": [],
+          "samples": [
+            "como cepillarse el pelo",
+            "cepillarse el cabello",
+            "como cepillar el cabello",
+            "como peinarse",
+            "quiero peinarme",
+            "peinarse",
+            "peinarme",
+            "como peinarme"
+          ]
+        },
+        {
+          "name": "desayunarIntent",
+          "slots": [],
+          "samples": [
+            "desayunemos",
+            "desayunar",
+            "como desayuno",
+            "quiero desayunar"
+          ]
+        },
+        {
+          "name": "limpiarCuarto",
+          "slots": [],
+          "samples": [
+            "como limpio mi cuarto",
+            "quiero limpiar mi cuarto",
+            "limpiar cuarto"
+          ]
+        },
+        {
+          "name": "ponerMesa",
+          "slots": [],
+          "samples": [
+            "poner la mesa",
+            "poner mesa",
+            "como pongo la mesa",
+            "quiero poner la mesa",
+            "como poner la mesa"
+          ]
+        },
+        {
+          "name": "guardarRopaIntent",
+          "slots": [],
+          "samples": [
+            "guardar ropa",
+            "guardar la ropa",
+            "guardar mi ropa",
+            "quiero guardar mi ropa",
+            "quiero guardar la ropa",
+            "como guardar mi ropa"
+          ]
+        },
+        {
+          "name": "loncheraIntent",
+          "slots": [],
+          "samples": [
+            "hacer la lonchera",
+            "hacer lonchera",
+            "guadar lonchera",
+            "guardar mi lonchera",
+            "quiero hacer mi lonchera"
+          ]
+        },
+        {
+          "name": "recogerMesa",
+          "slots": [],
+          "samples": [
+            "como recoger la mesa",
+            "recoger platos",
+            "recoger la mesa",
+            "recoger mesa"
+          ]
+        },
+        {
+          "name": "hacerSandwich",
+          "slots": [],
+          "samples": [
+            "preparar un emparedado",
+            "hacer un emparedado",
+            "como hacer un emparedado",
+            "quiero hacer un emparedado",
+            "emparedado",
+            "sandwich",
+            "prepaparar emparedado",
+            "hacer emparedado",
+            "como preparar un sandwich",
+            "quiero preparar un sandwich",
+            "quiero hacer sandwich",
+            "quiero hacer un sandwich",
+            "preparar sandwich",
+            "hacer sandwich"
+          ]
+        },
+        {
+          "name": "alimentarMascota",
+          "slots": [],
+          "samples": [
+            "alimentar a mi pajaro",
+            "alimentar a mi gato",
+            "alimentar a mi perro",
+            "darle de comer a mi pajaro",
+            "darle de comer a mi gato",
+            "darle de comer a mi perro",
+            "dar comida a mascota",
+            "darle de comer a mi mascota",
+            "alimentar mascota",
+            "alimentar a mi mascota",
+            "alimentar a mascota"
+          ]
+        },
+        {
+          "name": "alistarRopaIntent",
+          "slots": [],
+          "samples": [
+            "alistar prendas",
+            "alistar uniforme",
+            "alistar ropa"
+          ]
+        },
+        {
+          "name": "sacarBasuraIntent",
+          "slots": [],
+          "samples": [
+            "sacar basura"
+          ]
+        },
+        {
+          "name": "rompecabezasIntent",
+          "slots": [],
+          "samples": [
+            "rompecabezas",
+            "armar rompecabezas"
+          ]
+        },
+        {
+          "name": "matematicasIntent",
+          "slots": [],
+          "samples": [
+            "quiero matematicas",
+            "aprender matematicas",
+            "matematicas"
+          ]
+        },
+        {
+          "name": "matematicasRespuestas",
+          "slots": [
+            {
+              "name": "valor",
+              "type": "nuevoValor"
+            }
+          ],
+          "samples": [
+            "creo que es {valor}",
+            "{valor} ",
+            "la respuesta es {valor}"
+          ]
+        },
+        {
+          "name": "animalesIntent",
+          "slots": [],
+          "samples": [
+            "animales",
+            "aprender animales"
+          ]
+        },
+        {
+          "name": "animalesRespuestas",
+          "slots": [
+            {
+              "name": "animal",
+              "type": "animalRespuesta"
+            }
+          ],
+          "samples": [
+            "es {animal}",
+            "{animal}"
+          ]
+        },
+        {
+          "name": "coloresIntent",
+          "slots": [],
+          "samples": [
+            "cuales son los colores",
+            "cuales son los colroes",
+            "quiero aprenderme los colores",
+            "aprender colores",
+            "colores"
+          ]
+        },
+        {
+          "name": "coloresRespuestas",
+          "slots": [
+            {
+              "name": "farbe",
+              "type": "colorRespuuesta"
+            }
+          ],
+          "samples": [
+            "si {farbe}",
+            "{farbe}",
+            "es {farbe}"
+          ]
+        },
+        {
+          "name": "numerosIntent",
+          "slots": [],
+          "samples": [
+            "aprender numeros",
+            "numeros"
+          ]
+        },
+        {
+          "name": "numerosRespuestas",
+          "slots": [
+            {
+              "name": "num",
+              "type": "numeroRespuestas"
+            }
+          ],
+          "samples": [
+            "{num}",
+            "es el numero {num}",
+            "quiero {num}",
+            "es {num}"
+          ]
+        },
+        {
+          "name": "valoresIntent",
+          "slots": [],
+          "samples": [
+            "aprender valores",
+            "valores"
+          ]
+        },
+        {
+          "name": "valoresRespuestas",
+          "slots": [
+            {
+              "name": "val",
+              "type": "valorRespuestas"
+            }
+          ],
+          "samples": [
+            "si {val}",
+            "es {val}",
+            "{val}"
+          ]
+        },
+        {
+          "name": "emocionesIntent",
+          "slots": [],
+          "samples": [
+            "quiero aprender emociones",
+            "aprender emociones",
+            "emociones"
+          ]
+        },
+        {
+          "name": "emocionesRespuestas",
+          "slots": [
+            {
+              "name": "emoc",
+              "type": "emocionRespuesta"
+            }
+          ],
+          "samples": [
+            "si {emoc}",
+            "{emoc}",
+            "es {emoc}"
+          ]
+        },
+        {
+          "name": "profesionesIntent",
+          "slots": [],
+          "samples": [
+            "aprender profesiones",
+            "profesiones"
+          ]
+        },
+        {
+          "name": "profesionesRespuestas",
+          "slots": [
+            {
+              "name": "prof",
+              "type": "profesionRespuesta"
+            }
+          ],
+          "samples": [
+            "{prof}",
+            "es {prof}"
+          ]
+        },
+        {
+          "name": "oficiosIntent",
+          "slots": [],
+          "samples": [
+            "que oficios existen",
+            "aprender oficios",
+            "oficios"
+          ]
+        },
+        {
+          "name": "oficiosRespuestas",
+          "slots": [
+            {
+              "name": "ofic",
+              "type": "oficiosResp"
+            }
+          ],
+          "samples": [
+            "si {ofic}",
+            "es {ofic}",
+            "{ofic}"
+          ]
+        },
+        {
+          "name": "motrizSuperiorIntent",
+          "slots": [],
+          "samples": [
+            "superior",
+            "coordinacion motriz superior",
+            "motriz superior"
+          ]
+        },
+        {
+          "name": "motrizInferiorIntent",
+          "slots": [],
+          "samples": [
+            "hacer motriz inferior",
+            "motriz inferior"
+          ]
+        },
+        {
+          "name": "hacerTareaIntent",
+          "slots": [],
+          "samples": [
+            "pasos para hacer mi tarea",
+            "como hacer mi tarea",
+            "quiero hacer mi tarea",
+            "hacer tarea"
+          ]
+        },
+        {
+          "name": "estadosIntent",
+          "slots": [],
+          "samples": [
+            "quiero aprenderme los estados",
+            "aprender estados",
+            "abrir estados"
+          ]
+        },
+        {
+          "name": "estadosRespuestas",
+          "slots": [
+            {
+              "name": "state",
+              "type": "estadoRespuesta"
+            }
+          ],
+          "samples": [
+            "{state}",
+            "se dice {state}",
+            "es {state}"
+          ]
+        },
+        {
+          "name": "modalesMesaIntent",
+          "slots": [],
+          "samples": [
+            "modales en mesa",
+            "modales a la hora de la comida",
+            "cuales son los modales en la mesa",
+            "modales en la mesa"
+          ]
+        },
+        {
+          "name": "alfabetoIntent",
+          "slots": [],
+          "samples": [
+            "juego de alfabeto",
+            "quiero saber el alfabeto",
+            "alfabeto",
+            "aprender alfabeto"
+          ]
+        },
+        {
+          "name": "alfabetoRespuestas",
+          "slots": [
+            {
+              "name": "letter",
+              "type": "alfabetoRespuestas"
+            }
+          ],
+          "samples": [
+            "se dice {letter}",
+            "es {letter}",
+            "{letter}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "elefante"
+              }
+            },
+            {
+              "name": {
+                "value": "leon",
+                "synonyms": [
+                  "leona"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "pez",
+                "synonyms": [
+                  "pescado"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "puerco",
+                "synonyms": [
+                  "cerdo"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "vaca"
+              }
+            },
+            {
+              "name": {
+                "value": "gallina",
+                "synonyms": [
+                  "pollo"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "rana"
+              }
+            },
+            {
+              "name": {
+                "value": "gato",
+                "synonyms": [
+                  "gata"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "perro",
+                "synonyms": [
+                  "can",
+                  "perra"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "jirafa"
+              }
+            }
+          ],
+          "name": "animalRespuesta"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "negro"
+              }
+            },
+            {
+              "name": {
+                "value": "blanco"
+              }
+            },
+            {
+              "name": {
+                "value": "gris"
+              }
+            },
+            {
+              "name": {
+                "value": "cafe"
+              }
+            },
+            {
+              "name": {
+                "value": "rosa"
+              }
+            },
+            {
+              "name": {
+                "value": "morado"
+              }
+            },
+            {
+              "name": {
+                "value": "naranja"
+              }
+            },
+            {
+              "name": {
+                "value": "verde"
+              }
+            },
+            {
+              "name": {
+                "value": "amarillo"
+              }
+            },
+            {
+              "name": {
+                "value": "azul"
+              }
+            },
+            {
+              "name": {
+                "value": "rojo"
+              }
+            }
+          ],
+          "name": "colorRespuuesta"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "cien"
+              }
+            },
+            {
+              "name": {
+                "value": "noventa"
+              }
+            },
+            {
+              "name": {
+                "value": "ochenta"
+              }
+            },
+            {
+              "name": {
+                "value": "setenta"
+              }
+            },
+            {
+              "name": {
+                "value": "sesenta"
+              }
+            },
+            {
+              "name": {
+                "value": "cincuenta"
+              }
+            },
+            {
+              "name": {
+                "value": "cuarenta"
+              }
+            },
+            {
+              "name": {
+                "value": "treinta"
+              }
+            },
+            {
+              "name": {
+                "value": "veinte"
+              }
+            },
+            {
+              "name": {
+                "value": "cero"
+              }
+            },
+            {
+              "name": {
+                "value": "diez"
+              }
+            },
+            {
+              "name": {
+                "value": "nueve"
+              }
+            },
+            {
+              "name": {
+                "value": "ocho"
+              }
+            },
+            {
+              "name": {
+                "value": "siete"
+              }
+            },
+            {
+              "name": {
+                "value": "seis"
+              }
+            },
+            {
+              "name": {
+                "value": "cinco"
+              }
+            },
+            {
+              "name": {
+                "value": "cuatro"
+              }
+            },
+            {
+              "name": {
+                "value": "tres"
+              }
+            },
+            {
+              "name": {
+                "value": "dos"
+              }
+            },
+            {
+              "name": {
+                "value": "uno"
+              }
+            }
+          ],
+          "name": "numeroRespuestas"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "cuarenta y cinco"
+              }
+            },
+            {
+              "name": {
+                "value": "treinta y seis"
+              }
+            },
+            {
+              "name": {
+                "value": "treinta y cinco"
+              }
+            },
+            {
+              "name": {
+                "value": "veintinueve"
+              }
+            },
+            {
+              "name": {
+                "value": "veintiocho"
+              }
+            },
+            {
+              "name": {
+                "value": "veintisiete"
+              }
+            },
+            {
+              "name": {
+                "value": "veintiseis"
+              }
+            },
+            {
+              "name": {
+                "value": "veinticinco"
+              }
+            },
+            {
+              "name": {
+                "value": "veinticuatro"
+              }
+            },
+            {
+              "name": {
+                "value": "veintitres"
+              }
+            },
+            {
+              "name": {
+                "value": "veintidos"
+              }
+            },
+            {
+              "name": {
+                "value": "veintiuno"
+              }
+            },
+            {
+              "name": {
+                "value": "diecinueve"
+              }
+            },
+            {
+              "name": {
+                "value": "dieciocho"
+              }
+            },
+            {
+              "name": {
+                "value": "diecisiete"
+              }
+            },
+            {
+              "name": {
+                "value": "dieciseis"
+              }
+            },
+            {
+              "name": {
+                "value": "quince"
+              }
+            },
+            {
+              "name": {
+                "value": "catorce"
+              }
+            },
+            {
+              "name": {
+                "value": "trece"
+              }
+            },
+            {
+              "name": {
+                "value": "doce"
+              }
+            },
+            {
+              "name": {
+                "value": "once"
+              }
+            }
+          ],
+          "name": "nuevoValor"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "solidaridad"
+              }
+            },
+            {
+              "name": {
+                "value": "responsabilidad"
+              }
+            },
+            {
+              "name": {
+                "value": "humildad"
+              }
+            },
+            {
+              "name": {
+                "value": "perdon"
+              }
+            },
+            {
+              "name": {
+                "value": "gratitud"
+              }
+            },
+            {
+              "name": {
+                "value": "paciencia"
+              }
+            },
+            {
+              "name": {
+                "value": "amor"
+              }
+            },
+            {
+              "name": {
+                "value": "empatia"
+              }
+            },
+            {
+              "name": {
+                "value": "sinceridad"
+              }
+            },
+            {
+              "name": {
+                "value": "bondad"
+              }
+            }
+          ],
+          "name": "valorRespuestas"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "vergüenza"
+              }
+            },
+            {
+              "name": {
+                "value": "miedo"
+              }
+            },
+            {
+              "name": {
+                "value": "aversion"
+              }
+            },
+            {
+              "name": {
+                "value": "tristeza"
+              }
+            },
+            {
+              "name": {
+                "value": "sorpresa"
+              }
+            },
+            {
+              "name": {
+                "value": "enojo"
+              }
+            },
+            {
+              "name": {
+                "value": "enamorado"
+              }
+            },
+            {
+              "name": {
+                "value": "alegria"
+              }
+            }
+          ],
+          "name": "emocionRespuesta"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "administrador"
+              }
+            },
+            {
+              "name": {
+                "value": "paramedico"
+              }
+            },
+            {
+              "name": {
+                "value": "farmacologo"
+              }
+            },
+            {
+              "name": {
+                "value": "ingeniero"
+              }
+            },
+            {
+              "name": {
+                "value": "contador"
+              }
+            },
+            {
+              "name": {
+                "value": "enfermero"
+              }
+            },
+            {
+              "name": {
+                "value": "psicologo"
+              }
+            },
+            {
+              "name": {
+                "value": "biologo"
+              }
+            },
+            {
+              "name": {
+                "value": "abogado"
+              }
+            },
+            {
+              "name": {
+                "value": "medico cirujano"
+              }
+            }
+          ],
+          "name": "profesionRespuesta"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "bombero"
+              }
+            },
+            {
+              "name": {
+                "value": "herrero"
+              }
+            },
+            {
+              "name": {
+                "value": "agricultor"
+              }
+            },
+            {
+              "name": {
+                "value": "carnicero"
+              }
+            },
+            {
+              "name": {
+                "value": "pescador"
+              }
+            },
+            {
+              "name": {
+                "value": "pintor"
+              }
+            },
+            {
+              "name": {
+                "value": "policia"
+              }
+            },
+            {
+              "name": {
+                "value": "albañil"
+              }
+            },
+            {
+              "name": {
+                "value": "electricista"
+              }
+            },
+            {
+              "name": {
+                "value": "carpintero"
+              }
+            }
+          ],
+          "name": "oficiosResp"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "zacatecas"
+              }
+            },
+            {
+              "name": {
+                "value": "yucatan"
+              }
+            },
+            {
+              "name": {
+                "value": "veracruz"
+              }
+            },
+            {
+              "name": {
+                "value": "tlaxcala"
+              }
+            },
+            {
+              "name": {
+                "value": "tamaulipas"
+              }
+            },
+            {
+              "name": {
+                "value": "tabasco"
+              }
+            },
+            {
+              "name": {
+                "value": "sonora"
+              }
+            },
+            {
+              "name": {
+                "value": "sinaloa"
+              }
+            },
+            {
+              "name": {
+                "value": "san luis potosi"
+              }
+            },
+            {
+              "name": {
+                "value": "quintana roo"
+              }
+            },
+            {
+              "name": {
+                "value": "queretaro"
+              }
+            },
+            {
+              "name": {
+                "value": "puebla"
+              }
+            },
+            {
+              "name": {
+                "value": "oaxaca"
+              }
+            },
+            {
+              "name": {
+                "value": "nuevo leon"
+              }
+            },
+            {
+              "name": {
+                "value": "nayarit"
+              }
+            },
+            {
+              "name": {
+                "value": "morelos"
+              }
+            },
+            {
+              "name": {
+                "value": "michoacan"
+              }
+            },
+            {
+              "name": {
+                "value": "mexico"
+              }
+            },
+            {
+              "name": {
+                "value": "jalisco"
+              }
+            },
+            {
+              "name": {
+                "value": "hidalgo"
+              }
+            },
+            {
+              "name": {
+                "value": "guerrero"
+              }
+            },
+            {
+              "name": {
+                "value": "guanajuato"
+              }
+            },
+            {
+              "name": {
+                "value": "durango"
+              }
+            },
+            {
+              "name": {
+                "value": "colima"
+              }
+            },
+            {
+              "name": {
+                "value": "coahuila"
+              }
+            },
+            {
+              "name": {
+                "value": "ciudad de mexico"
+              }
+            },
+            {
+              "name": {
+                "value": "chihuahua"
+              }
+            },
+            {
+              "name": {
+                "value": "chiapas"
+              }
+            },
+            {
+              "name": {
+                "value": "campeche"
+              }
+            },
+            {
+              "name": {
+                "value": "baja california sur"
+              }
+            },
+            {
+              "name": {
+                "value": "baja california"
+              }
+            },
+            {
+              "name": {
+                "value": "aguascalientes"
+              }
+            }
+          ],
+          "name": "estadoRespuesta"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "zeta",
+                "synonyms": [
+                  "z"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "y griega",
+                "synonyms": [
+                  "y"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "equis",
+                "synonyms": [
+                  "x"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "doble u",
+                "synonyms": [
+                  "w"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "uve",
+                "synonyms": [
+                  "v"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "u",
+                "synonyms": [
+                  "u"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "te",
+                "synonyms": [
+                  "t"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "ese",
+                "synonyms": [
+                  "s"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "erre",
+                "synonyms": [
+                  "r"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "cu",
+                "synonyms": [
+                  "q",
+                  "qu"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "pe",
+                "synonyms": [
+                  "p"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "o"
+              }
+            },
+            {
+              "name": {
+                "value": "eñe",
+                "synonyms": [
+                  "ñ"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "ene",
+                "synonyms": [
+                  "n"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "eme",
+                "synonyms": [
+                  "m"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "ele",
+                "synonyms": [
+                  "l"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "ka",
+                "synonyms": [
+                  "k",
+                  "ca"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "jota",
+                "synonyms": [
+                  "j"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "i",
+                "synonyms": [
+                  "i"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "ache",
+                "synonyms": [
+                  "h"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "ge",
+                "synonyms": [
+                  "g"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "efe",
+                "synonyms": [
+                  "f"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "e"
+              }
+            },
+            {
+              "name": {
+                "value": "de",
+                "synonyms": [
+                  "d"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "ce",
+                "synonyms": [
+                  "c"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "be",
+                "synonyms": [
+                  "b"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "a"
+              }
+            }
+          ],
+          "name": "alfabetoRespuestas"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "sere"
+              }
+            },
+            {
+              "name": {
+                "value": "sali"
+              }
+            },
+            {
+              "name": {
+                "value": "querre"
+              }
+            },
+            {
+              "name": {
+                "value": "pense"
+              }
+            },
+            {
+              "name": {
+                "value": "pagare"
+              }
+            },
+            {
+              "name": {
+                "value": "lei"
+              }
+            },
+            {
+              "name": {
+                "value": "jugare"
+              }
+            },
+            {
+              "name": {
+                "value": "fui"
+              }
+            },
+            {
+              "name": {
+                "value": "hare"
+              }
+            },
+            {
+              "name": {
+                "value": "hable"
+              }
+            },
+            {
+              "name": {
+                "value": "escribire"
+              }
+            },
+            {
+              "name": {
+                "value": "dije"
+              }
+            },
+            {
+              "name": {
+                "value": "comere"
+              }
+            },
+            {
+              "name": {
+                "value": "cocine"
+              }
+            },
+            {
+              "name": {
+                "value": "cerrare"
+              }
+            },
+            {
+              "name": {
+                "value": "camine"
+              }
+            },
+            {
+              "name": {
+                "value": "buscare"
+              }
+            },
+            {
+              "name": {
+                "value": "bebi"
+              }
+            },
+            {
+              "name": {
+                "value": "aprendere"
+              }
+            },
+            {
+              "name": {
+                "value": "abri"
+              }
+            }
+          ],
+          "name": "verbosRespuestas"
+        }
+      ]
+    }
+  },
+  "version": "140"
+}
